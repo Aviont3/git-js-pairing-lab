@@ -3,4 +3,13 @@ fiveToOnneHudred=()=>{
     for(let i=5;i<=100;i++){
         console.log(i)};
 };
-fiveToOnneHudred()
+fiveToOnneHudred();
+
+multiplesOfThree =() => {
+    for (let i = 0; i<=100; i++) {
+        if (i % 3 === 0) {
+        console.log(i);
+        };
+    };
+};
+multiplesOfThree();
