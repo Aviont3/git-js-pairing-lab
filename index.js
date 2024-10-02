@@ -49,3 +49,14 @@ a + b; {
 add(2, 4);
 add(5, 5);
 add(6 ,6);
+
+isNegative = (num) => {
+    if (num < 0) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+};
+
+console.log(isNegative(-1));
+console.log(isNegative(1));
