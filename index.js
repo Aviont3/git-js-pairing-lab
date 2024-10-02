@@ -37,3 +37,15 @@ const multiply=(a,b)=>{
     return a*b
 }
 console.log(multiply(2,3))
+
+add = (a,b) => {
+a + b; {
+    if (a === b) {
+        console.log((a + b) * 3) 
+    }
+}
+}
+
+add(2, 4);
+add(5, 5);
+add(6 ,6);
