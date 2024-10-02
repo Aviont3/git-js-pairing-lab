@@ -1,5 +1,5 @@
 //Code your solutions in this file
-fiveToOnneHudred=()=>{
+ fiveToOnneHudred=()=>{
     for(let i=5;i<=100;i++){
         console.log(i)};
 };
@@ -59,4 +59,11 @@ isNegative = (num) => {
 };
 
 console.log(isNegative(-1));
-console.log(isNegative(1));
+console.log(isNegative(1)); 
+
+triangleArea = (a, b) => {
+return .5 * a * b;
+}
+
+console.log(triangleArea(5, 7));
+console.log(triangleArea(6, 8));
