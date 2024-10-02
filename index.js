@@ -23,3 +23,12 @@ multiplesOfThreeOrFive =() => {
 };
 multiplesOfThreeOrFive()
 
+untilNum = (num) => {
+for (i = 1; i <= num; i++) {
+    console.log(i)
+}
+}
+
+untilNum(5)
+untilNum(9)
+untilNum(42)
