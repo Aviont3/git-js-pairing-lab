@@ -67,3 +67,13 @@ return .5 * a * b;
 
 console.log(triangleArea(5, 7));
 console.log(triangleArea(6, 8));
+
+const betweenTwentyAndFourty = (a) => {
+    if (20 <= a <= 40){
+        return true
+    } else {
+        return false
+    }
+    }
+console.log(betweenTwentyAndFourty(21))
+console.log(betweenTwentyAndFourty(20))
