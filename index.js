@@ -22,3 +22,18 @@ multiplesOfThreeOrFive =() => {
     };
 };
 multiplesOfThreeOrFive()
+
+untilNum = (num) => {
+for (i = 1; i <= num; i++) {
+    console.log(i)
+}
+}
+
+untilNum(5)
+untilNum(9)
+untilNum(42)
+
+const multiply=(a,b)=>{
+    return a*b
+}
+console.log(multiply(2,3))
